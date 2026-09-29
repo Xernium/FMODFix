@@ -1,4 +1,4 @@
-// EAFMODFix: generic fix for older FMOD on iOS 10 (32-bit).
+// FMODFix: generic fix for older FMOD on iOS 10 (32-bit).
 // Originally intended as a simple fix in B4BioBoss, I found out that this fix applies to a lot more apps.
 // Fixes : Dead Space, Mass Effect Infiltrator and probably many others
 //
@@ -23,7 +23,7 @@
 #include <string.h>
 #include <Foundation/Foundation.h>
 
-#define LOG(fmt, ...) NSLog(@"[EAFMODFix] " fmt, ##__VA_ARGS__)
+#define LOG(fmt, ...) NSLog(@"[FMODFix] " fmt, ##__VA_ARGS__)
 
 static const void *gMainHeader = NULL;
 

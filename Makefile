@@ -4,7 +4,7 @@ ARCHS = armv7
 include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = FMODFix
-EAFMODFix_FILES = FMODThreadFix.x
-EAFMODFix_CFLAGS = -fno-objc-arc
+FMODFix_FILES = FMODThreadFix.x
+FMODFix_CFLAGS = -fno-objc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk

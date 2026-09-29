@@ -1,6 +1,6 @@
 Package: com.xernium.fmodfix
 Name: FMODFix
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Description: Restores streamed audio (music, dialogue, ambience) in 32-bit games using FMOD on iOS 10
 Maintainer: Xernium
