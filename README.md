@@ -33,7 +33,9 @@ This should work universally because that string is not a symbol but .text data
 
 ## Install
 
-Install the `.deb` from the releases page (or build it yourself), then relaunch the game.
+Add the repo **[xernium.github.io](https://xernium.github.io/)** (`https://xernium.github.io/`) to Cydia, Zebra or Sileo and install it from there.
+
+Or install the `.deb` from the releases page (or build it yourself), then relaunch the game.
 
 When it's active, the syslog shows:
 
